@@ -74,7 +74,7 @@ def removeLastElement(lst):
 with open(fileName, "w", newline='') as csv_file:
   writer = csv.writer(csv_file, delimiter=',')
   headers = ["Subject","Start Date","Start Time","End Date","End Time","All Day Event","Description","Location","Private"]
-  print(headers)
+  #print(headers)
   writer.writerow(headers)
   for counter, value in enumerate(listofcollectionDays):
     if counter  == 0:
@@ -86,6 +86,6 @@ with open(fileName, "w", newline='') as csv_file:
       value = getNumericDate(value)
     value = addSubject(value)
     value = addMissingValues(value)
-   #value[6].split("\n")[0]
-    print(value)
+    #value[6].split("\n")[0]
+    #print(value)
     writer.writerow(value)
