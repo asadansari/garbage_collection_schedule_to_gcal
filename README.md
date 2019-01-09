@@ -1,7 +1,7 @@
 # garbage_collection_schedule_to_gcal
 
 This script will scrape the http://www.peelregion.ca/waste/ and generate a csv file that can be imported into Google Calendar.
-Previously Peel Region used to provide an ics file with the garbage schedule but they no longer do so.
+Previously Peel Region used to provide an ics file with the garbage collection schedule but they no longer do so.
 
 What is needed?
 
