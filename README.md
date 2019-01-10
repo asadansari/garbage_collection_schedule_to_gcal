@@ -17,7 +17,7 @@ To do this follow the steps below:
 08. You should find an XHR request that looks similar to the one shown below. 
 http://www.peelregion.ca/waste-scripts/when-does-it-go/nextCollectionHTML.asp?service=bm-cr-tue-a&days=4&date=2019-02-05&hidden=1
 09. Modify the request so it matches the request shown below.
-http://www.peelregion.ca/waste-scripts/when-does-it-go/nextCollectionHTML.asp?service=bm-cr-tue-a&days=365&date=2019-01-07&hidden=0
+http://www.peelregion.ca/waste-scripts/when-does-it-go/nextCollectionHTML.asp?service=bm-cr-tue-a&days=365&date=2019-01-01&hidden=0
 10. Replace the url variable in the script with the modified url above
 11. Change the address variable with your address (this is used to populate the location field in Google Calendar)
 12. You can also change the start time and end time if you desire
