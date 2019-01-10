@@ -11,7 +11,7 @@ startTime = "10:00 AM"
 endTime = "11:00 PM"
 address = "1234 Somewhere Cresecent, City, Province A3H 7Y7, Canada"
 fileName = "garbage_collection_schedule_" + str(year) + ".csv"
-url = 'http://www.peelregion.ca/waste-scripts/when-does-it-go/nextCollectionHTML.asp?service=bm-cr-tue-a&days=365&date=2019-01-07&hidden=0'
+url = 'http://www.peelregion.ca/waste-scripts/when-does-it-go/nextCollectionHTML.asp?service=bm-cr-tue-a&days=365&date=2019-01-01&hidden=0'
 
 page = requests.get(url)
 soup = BeautifulSoup(page.content, 'html.parser')
