@@ -12,6 +12,7 @@ endTime = "11:00 PM"
 address = "1234 Somewhere Cresecent, City, Province A3H 7Y7, Canada"
 fileName = "garbage_collection_schedule_" + str(year) + ".csv"
 collectionSchedCode = 'bm-cr-tue-a'
+calendarEventTitle = "Garbage"
 url = 'http://www.peelregion.ca/waste-scripts/when-does-it-go/nextCollectionHTML.asp?service=' + collectionSchedCode + '&days=365&date=' + str(year) + '-01-01&hidden=0'
 
 page = requests.get(url)
@@ -40,7 +41,7 @@ def getNumericDate(lst, newYearFix=0):
   return lst
 
 def addSubject(lst):
-  subj = ["Garbage"]
+  subj = [calendarEventTitle]
   lst = subj + lst
   return lst
 
