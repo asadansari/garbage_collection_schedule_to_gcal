@@ -10,8 +10,8 @@ newYear = str(newDateTime.year)
 startTime = "10:00 AM"
 endTime = "11:00 PM"
 address = "1234 Somewhere Cresecent, City, Province A3H 7Y7, Canada"
-fileName = "garbage_collection_schedule_" + str(year) + ".csv"
-collectionSchedCode = 'bm-cr-tue-a'
+fileName = "garbage_collection_schedule_" + str(year) + ".csv" #Do not change anything starting from the first plus sign on this line. 
+collectionSchedCode = 'bm-cr-tue-a' #The code from Step 9 of the instructions goes here.
 calendarEventTitle = "Garbage"
 url = 'http://www.peelregion.ca/waste-scripts/when-does-it-go/nextCollectionHTML.asp?service=' + collectionSchedCode + '&days=365&date=' + str(year) + '-01-01&hidden=0'
 
