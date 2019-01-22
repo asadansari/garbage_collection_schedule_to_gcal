@@ -23,7 +23,7 @@ listofcollectionDays = []
 for day in collectionDays:
   listofcollectionDays.append(list(filter(str.strip, day.get_text().strip().split("\n"))))
 
-# Removes " - Today" from the first date
+# Removes " - Today" from date
 def todayFix(lst):
   firstItem = lst[0]
   splitList = firstItem.split("-")
