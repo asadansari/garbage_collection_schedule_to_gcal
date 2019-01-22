@@ -79,7 +79,7 @@ with open(fileName, "w", newline='') as csv_file:
   #print(headers)
   writer.writerow(headers)
   for counter, value in enumerate(listofcollectionDays):
-    if counter  == 0:
+    if " - Today" in value[0]:
       value = todayFix(value)
     value = removeLastElement(value)
     if counter == len(listofcollectionDays)-1:
