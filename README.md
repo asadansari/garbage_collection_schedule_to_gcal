@@ -1,5 +1,5 @@
 ## Project is now deprecated.
-## Generate you schedule at http://www.peelregion.ca/waste/calendar/
+## Generate your schedule at http://www.peelregion.ca/waste/calendar/
 ## garbage_collection_schedule_to_gcal
 
 This script will scrape the http://www.peelregion.ca/waste/ and generate a csv file that can be imported into Google Calendar.
